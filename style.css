@@ -7,6 +7,7 @@
 :root {
   font-family: 'Montserrat',sans-serif;
   font-size: 16px;
+  --color-primary: #ffc500
 }
 
 body {
@@ -46,4 +47,9 @@ li {
     color: white;
     text-decoration: none;
 }
+ .navbar__links a:hover {
+     color: var(--color-primary) #ffc500;
+ } 
+
+
 
